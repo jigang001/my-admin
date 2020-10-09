@@ -24,7 +24,7 @@ if (!(window as any).__POWERED_BY_QIANKUN__) {
  * 通常我们可以在这里做一些全局变量的初始化，比如不会在 unmount 阶段被销毁的应用级别的缓存等。
  */
 export async function bootstrap () {
-  console.log('react app bootstraped')
+  console.log('my-admin app bootstraped')
 }
 /**
  * 应用每次进入都会调用 mount 方法，通常我们在这里触发应用的渲染方法
